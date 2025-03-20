@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
 import time
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1001896877147
 
 # Setting SUPPORT_CHAT directly here
 SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1001953724858"))
@@ -60,7 +60,7 @@ class Bot(Client):
                     photo=Config.START_PIC,
                     caption=(
                         "**ᴀɴʏᴀ ɪs ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ  !**\n\n"
-                        f"ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​: `{uptime_string}`"
+                        f"ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: `{uptime_string}`"
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [[
