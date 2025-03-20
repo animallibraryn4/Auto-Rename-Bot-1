@@ -54,3 +54,4 @@ async def handle_media_selection(client, callback_query):
     # Acknowledge the callback and send confirmation
     await callback_query.answer(f"Media preference set to: {media_type} ✅")
     await callback_query.message.edit_text(f"**Media preference set to:** {media_type} ✅")
+    
