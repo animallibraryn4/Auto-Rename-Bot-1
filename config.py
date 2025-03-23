@@ -11,7 +11,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","codeflix")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://nikhilsingh109020:K4LAeHeLGiL7Q7qB@cluster0.6xszk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://nikhilsingh109020:K4LAeHeLGiL7Q7qB@cluster0.6xszk.mongodb.net/?retryWrites=true&w=majority")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
