@@ -7,7 +7,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "22299340")
     API_HASH  = os.environ.get("API_HASH", "09b09f3e2ff1306da4a19888f614d937")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7632805578:AAHyFiomSTFhIxt56vHnosOREPg2iMU8_TQ") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "mongodb+srv://hekod11043:WesIhyuyVi1OXkH3@cluster0.xvruf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","codeflix")     
